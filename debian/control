@@ -6,12 +6,12 @@ Build-Depends: debhelper (>= 9), libqt4-dev, syslinux, syslinux-common
 Standards-Version: 3.9.6
 Vcs-Git: git://git.debian.org/git/collab-maint/unetbootin.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/unetbootin.git;a=summary
-Homepage: http://unetbootin.sourceforge.net
+Homepage: https://unetbootin.github.io
 
 Package: unetbootin
 Architecture: amd64 i386
 Depends: ${misc:Depends}, ${shlibs:Depends}, mtools, p7zip-full, syslinux, syslinux-common, udev
-Recommends: extlinux, unetbootin-translations, gksu | kdesudo
+Recommends: extlinux, unetbootin-translations
 Description: installer of Linux/BSD distributions to a partition or USB drive
  UNetbootin allows for the installation of various Linux/BSD distributions to a
  partition or USB drive, so it's no different from a standard install, only it
